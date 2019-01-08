@@ -49,8 +49,11 @@
 
 /*END NAV*/
 
-nav + .container, #first-container  {
+nav + .container {
 	padding-top: 3.2rem;
+}
+#first-container  {
+	padding-top: 4rem;
 }
 
 /*BEGINNING BODY*/
