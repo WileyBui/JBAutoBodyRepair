@@ -31,7 +31,7 @@ document.write(
 "			</div>" +
 "		</div>" +
 "	</div>" +
-"	<ul id='footer-copyright' class='text-center'>" +
+"	<ul id='footer-copyright' class='text-center' style='absolute'>" +
 "		<li>Website by <a href='https://wileybui.com' class='font-weight-bold text-muted link' id='credit' target='_blank'>Wiley Bui</a>.</li>" +
 "		<li>&#169; 2019 JB Auto Body Repair. All Rights Reserved.</li>" +
 "	</ul>" +
