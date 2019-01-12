@@ -1,7 +1,7 @@
 document.write(
 "<nav class='navbar fixed-top navbar-expand-md navbar-dark scrolling-navbar default-background-color'>" +
 "	<div class='navbar-brand'>" +
-"		<a href='/' target='_blank' class='mobile-site-logo'></a>" +
+"		<a href='/' class='mobile-site-logo'></a>" +
 "		<button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>" +
 "			<span class='navbar-toggler-icon'></span>" +
 "		</button>" +
