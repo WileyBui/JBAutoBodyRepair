@@ -22,11 +22,11 @@ document.write(
 "			</div>" +
 "			<hr class='clearfix w-100 d-md-none'>" +
 "			<div class='col-12 col-md-4' id='hour'>" +
-"				<h5 class='text-uppercase font-weight-bold'>Hours (<font color='#35e61e'>Auto</font> | <font color='#E7263B'>Towing</font>)</h5>" +
+"				<h5 class='text-uppercase font-weight-bold'>Hours <font color='blue'>Auto</font> | <font color='#E7263B'>Towing</font></h5>" +
 "				<ul>" +
-"					<li><strong>Mon-Fri</strong>: <font color='#35e61e'>9:00AM-6:00PM</font> | <font color='#E7263B'>9:00AM - 10:00PM</font></li>" +
-"					<li><strong>Sat</strong>: <font color='#35e61e'>9:00AM-1:00PM</font> | <font color='#E7263B'>9:00AM - 6:00PM</font></li>" +
-"					<li><strong>Sun</strong>: <font color='#35e61e'>Closed</font> | <font color='#E7263B'>Closed</font></li>" +
+"					<li><strong>Mon-Fri</strong>: <font color='blue'>9:00AM-6:00PM</font> | <font color='#E7263B'>9:00AM - 10:00PM</font></li>" +
+"					<li><strong>Sat</strong>: <font color='blue'>9:00AM-1:00PM</font> | <font color='#E7263B'>9:00AM - 6:00PM</font></li>" +
+"					<li><strong>Sun</strong>: <font color='blue'>Closed</font> | <font color='#E7263B'>Closed</font></li>" +
 "				</ul>" +
 "			</div>" +
 "		</div>" +
