@@ -24,9 +24,9 @@ document.write(
 "			<div class='col-12 col-md-4' id='hour'>" +
 "				<h5 class='text-uppercase font-weight-bold'>Hours <font color='green'>Auto</font> | <font color='red'>Towing</font></h5>" +
 "				<ul>" +
-"					<li><strong>Mon-Fri</strong>: 9:00AM-6:00PM</li>" +
-"					<li><strong>Sat</strong>: 9:00AM-1:00PM</li>" +
-"					<li><strong>Sun</strong>: Closed</li>" +
+"					<li><strong>Mon-Fri</strong>: <font color='green'>9:00AM-6:00PM</font> | <font color='red'>9:00AM - 10:00PM</font></li>" +
+"					<li><strong>Sat</strong>: <font color='green'>9:00AM-1:00PM</font> | <font color='red'>9:00AM - 6:00PM</font></li>" +
+"					<li><strong>Sun</strong>: <font color='green'>Closed</font> | <font color='red'>Closed</font></li>" +
 "				</ul>" +
 "			</div>" +
 "		</div>" +
