@@ -13,6 +13,7 @@ html, :root {
 }
 
 /*BEGINNING NAV*/
+
 .default-background-color {
 	/*background-color: var(--zBlue); var(--zBlue); 96dfdc, #03A9F4, #3F51B5 */
 	background-image: linear-gradient(to right, var(--zBlue), var(--zPurple));
@@ -35,14 +36,20 @@ html, :root {
 	z-index: 1000 !important;
 }
 
-@keyframes flow-in {  
-	from 	{	transform: translateX(100%); opacity: 0 }
-	to 		{	transform: translateX(0); opacity: 1 }
+@keyframes flow-in {
+	from {
+		transform: translateX(100%);
+		opacity: 0
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1
+	}
 }
 
 .main-site-logo {
 	max-width: 100%;
-	max-height:100%
+	max-height: 100%
 }
 
 .navbar-toggler {
@@ -63,14 +70,17 @@ html, :root {
 nav.navbar {
 	box-shadow: 0 2px 1px rgba(34, 25, 27, .3);
 }
-nav + .container {
+
+nav+.container {
 	padding-top: 3.2rem;
 }
-#first-container  {
+
+#first-container {
 	padding-top: 4rem;
 }
 
 /*BEGINNING BODY*/
+
 body {
 	display: flex;
 	min-height: 100vh;
@@ -81,8 +91,8 @@ body {
 
 /*END BODY*/
 
-
 /*BEGINNING FOOTER*/
+
 footer {
 	background-color: #EEE;
 	position: relative;
@@ -105,11 +115,38 @@ footer .container {
 #footer-copyright li, #credit {
 	font-size: .8rem;
 }
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td {
+	/* border: 1px solid black; */
+	width: auto;
+}
+
+tr td:first-child {
+	font-weight: bold;
+}
+
+/* 
+  tr td:not(:nth-child(1))::before {
+	content: "| "
+  } */
+
+.color-auto {
+	color: #3a50b6;
+}
+
+.color-towing {
+	color: #E7263B;
+}
+
 /*END FOOTER*/
 
-
-
 /*BEGINNING WHOLE SITE*/
+
 img {
 	pointer-events: none
 }
@@ -163,13 +200,25 @@ a.link {
 	-webkit-animation: flash 1s ease-in-out;
 	animation: flash 1s ease-in-out;
 }
-@-webkit-keyframes flash { 
-	0%, 35% {background-color: transparent; box-shadow:inset 0 0 0 2px var(--zBlue);}
-	20%, 75% {background-color: linear-gradient(to right, var(--zBlue), var(--zPurple));} 
+
+@-webkit-keyframes flash {
+	0%, 35% {
+		background-color: transparent;
+		box-shadow: inset 0 0 0 2px var(--zBlue);
+	}
+	20%, 75% {
+		background-color: linear-gradient(to right, var(--zBlue), var(--zPurple));
+	}
 }
-@keyframes flash {  
-	0%, 35% {background-color: transparent; box-shadow:inset 0 0 0 2px var(--zBlue);}
-	20%, 75% {background-color: var(--zBlue);}
+
+@keyframes flash {
+	0%, 35% {
+		background-color: transparent;
+		box-shadow: inset 0 0 0 2px var(--zBlue);
+	}
+	20%, 75% {
+		background-color: var(--zBlue);
+	}
 }
 
 @media (max-width: 768px) {
@@ -188,7 +237,8 @@ a.link {
 	}
 }
 
-@media (min-width: 768px) { /*bigger screen*/
+@media (min-width: 768px) {
+	/*bigger screen*/
 	.navbar-brand {
 		display: none;
 	}
@@ -200,4 +250,5 @@ a.link {
 .test {
 	background-color: blue;
 }
+
 /*END WHOLE SITE*/

@@ -22,12 +22,8 @@ document.write(
 "			</div>" +
 "			<hr class='clearfix w-100 d-md-none'>" +
 "			<div class='col-12 col-md-4' id='hour'>" +
-"				<h5 class='text-uppercase font-weight-bold'>Hours <font color='#6ed3cf'>Auto</font> | <font color='#E7263B'>Towing</font></h5>" +
-"				<ul>" +
-"					<li><strong>Mon-Fri</strong>: <font color='#6ed3cf'>9:00AM-6:00PM</font> | <font color='#E7263B'>9:00AM - 10:00PM</font></li>" +
-"					<li><strong>Sat</strong>: <font color='#6ed3cf'>9:00AM-1:00PM</font> | <font color='#E7263B'>9:00AM - 6:00PM</font></li>" +
-"					<li><strong>Sun</strong>: <font color='#6ed3cf'>Closed</font> | <font color='#E7263B'>Closed</font></li>" +
-"				</ul>" +
+"				<h5 class='text-uppercase font-weight-bold'>Hours <font color='#3a50b6'>Auto</font> | <font color='#E7263B'>Towing</font></h5>" +
+"				<table> <tr> <td>Mon-Fri</td> <td class='color-auto'>9:00AM - 6:00PM</td> <td class='color-towing'>9:00AM - 10:00PM</th> </tr> <tr> <td>Sat</td> <td class='color-auto'>9:00AM - 1:00PM</td> <td class='color-towing'>9:00AM - 6:00PM</td> </tr> <tr> <td>Sun</td> <td class='color-auto'>Closed</td> <td class='color-towing'>Closed</td> </tr> </table>" +
 "			</div>" +
 "		</div>" +
 "	</div>" +
