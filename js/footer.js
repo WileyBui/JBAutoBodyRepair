@@ -22,7 +22,7 @@ document.write(
 "			</div>" +
 "			<hr class='clearfix w-100 d-md-none'>" +
 "			<div class='col-12 col-md-4' id='hour'>" +
-"				<h5 class='text-uppercase font-weight-bold'>Business Hours <p color='red'>Towing</p> | <p color='green'>Auto</p></h5>" +
+"				<h5 class='text-uppercase font-weight-bold'>Business Hours <font color='red'>Towing</p> | <font color='green'>Auto</font></h5>" +
 "				<ul>" +
 "					<li><strong>Mon-Fri</strong>: 9:00AM-6:00PM</li>" +
 "					<li><strong>Sat</strong>: 9:00AM-1:00PM</li>" +
