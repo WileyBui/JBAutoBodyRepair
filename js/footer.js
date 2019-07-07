@@ -23,7 +23,7 @@ document.write(
 "			<hr class='clearfix w-100 d-md-none'>" +
 "			<div class='col-12 col-md-4' id='hour'>" +
 "				<h5 class='text-uppercase font-weight-bold'>Hours <font color='#3a50b6'>Auto</font> | <font color='#E7263B'>Towing</font></h5>" +
-"				<table> <tr> <td>Mon-Fri</td> <td class='color-auto'>9:00AM - 6:00PM</td> <td class='color-towing'>9:00AM - 10:00PM</th> </tr> <tr> <td>Sat</td> <td class='color-auto'>9:00AM - 1:00PM</td> <td class='color-towing'>9:00AM - 6:00PM</td> </tr> <tr> <td>Sun</td> <td class='color-auto'>Closed</td> <td class='color-towing'>Closed</td> </tr> </table>" +
+"				<table> <tr> <td>Mon-Fri</td> <td class='color-auto'>9:00AM - 6:00PM</td> <td class='color-towing'>9:00AM - 10:00PM</th> </tr> <tr> <td>Sat</td> <td class='color-auto'>9:00AM - 1:00PM</td> <td class='color-towing'>9:00AM - 06:00PM</td> </tr> <tr> <td>Sun</td> <td colspan='2'>Closed</td> </tr> </table>" +
 "			</div>" +
 "		</div>" +
 "	</div>" +
