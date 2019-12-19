@@ -13,8 +13,8 @@ document.write(
 "				<li class='nav-item col-md-3'><a class='link' href='#contact' id='nav-contact'>Contact</a></li>" +
 "				<li class='nav-item col-0 col-md-2'><a href='/'><img src='images/site-logo.png' class='main-site-logo' /></a></li>" +
 "				<li class='nav-item col-md-3'><a class='link' href='Location.html'>Location</a></li>" +
-// "				<li class='nav-item col-md-2'><a class='link' href='#hour' id='nav-hour'>Business Hours</a></li>" +
-"				<li class='nav-item col-md-2'><a class='link' href='http://localhost:3000/#/list'>Login/Sign Up</a></li>" +
+"				<li class='nav-item col-md-2'><a class='link' href='#hour' id='nav-hour'>Business Hours</a></li>" +
+// "				<li class='nav-item col-md-2'><a class='link' href='http://localhost:3000/#/list'>Login/Sign Up</a></li>" +
 "			</ul>" +
 "		</nav>" +
 "	</div>" +
